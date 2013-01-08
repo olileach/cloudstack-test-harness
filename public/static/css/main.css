@@ -1,0 +1,112 @@
+body {
+        background-color: #FFFFFF;
+        color: #000000;
+        margin: 0;
+        height: 100%;
+        font: 1.5em arial, verdana, sans-serif;
+}
+
+html {
+        height: 100%
+}
+
+select {
+
+        font-size: 11px
+
+}
+
+input[type=text]{
+
+        font-size: 11px;
+
+}
+
+#ph {
+
+    height:100px;
+    font: 40px Tahoma, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    background-image:url('/static/images/bg.jpg');
+    color: #E6E8F2;
+    text-shadow: 0px 1px 1px #C2C2C4;
+    line-height: 100px;
+    border-bottom-style: dotted;
+}
+
+.hl {
+        height: 20px;
+        background: gray ;
+        color: #BFBFBF;
+        border-color:#250517;
+        border-width:2px; 
+        border-bottom-style:inset;
+
+ 
+}
+
+.hl a {
+
+        vertical-align:top;  
+        color: #E6E6E6;
+        text-align: center;
+        font-weight:bold;
+        font-family: "Arial";
+        font-size:8pt;
+        text-decoration: none;
+        text-shadow: 0px #FFFFFF;
+}
+
+.hl a:link { color:#2966B8;}
+.hl a:hover { color:#2966B8;}
+
+#hlleftmargin {
+    
+        margin-left: 100px ;
+
+}
+#hlspace {
+    
+        display: inline-block;
+        padding: 0;
+        width: 25px;
+        margin: 0;
+}
+
+.mf , .mb {
+
+        font: 1.5em arial, verdana, sans-serif;
+        font-size: 11px;
+
+
+        background: #EEE;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 25px;
+        margin-top: 20px;
+        margin-left: 100px ;
+        margin-right: 100px ;
+        height: auto;
+}
+
+
+.pagefooter {
+
+         height: 10px;
+         background:#33334C ;
+
+}
+
+
+.websitefooter {
+
+        background: #EEE;
+        border-top-color: #E1E1E1;
+        border-top-style: solid;
+        border-top-width: 1px;
+        color: #A2A2A2;
+        font-size: 11px;
+        padding-bottom: 30px;
+        padding-top: 15px;
+}

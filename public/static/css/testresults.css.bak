@@ -1,0 +1,108 @@
+.top {
+
+
+    font: arial, verdana, sans-serif;
+    font-size: 12px;
+    margin-left: 460px;
+}
+
+#results-detail
+{
+    font: arial, verdana, sans-serif;
+    font-size: 12px;
+    margin: 45px;
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 460px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+#results-detail th
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #039;
+    width: 75%;
+}
+
+#results-detail td
+{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #e8edff;
+}
+
+#results-detail td:nth-child(3) 
+{ 
+    padding-right: 100px;
+}
+
+.col-results-detail
+{
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#throbber {
+    width:15px; /* you can use % */
+    height: auto;
+    padding-left: 5px;
+}
+
+#results-header
+{
+    font: arial, verdana, sans-serif;
+    font-size: 12px;
+    margin: 45px;
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 460px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 100px;
+
+}
+
+#results-header th
+{
+    font: arial, verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: #039;
+    width: 73%;
+    text-align: left;
+}
+
+#results-header td
+{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #e8edff;
+}
+.col-results-header
+{
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#results-header td:nth-child(3)
+{
+    padding-right: 100px;
+    width:500px
+}
+
+.odd {
+    background-color: #def; }
+.odd td {
+    border-bottom: 1px solid #cef; }

@@ -1,0 +1,30 @@
+{u'listaccountsresponse': {u'count': 3, u'account': [{u'domain': u'ROOT', u'domainid': 1, u'iplimit': u'Unlimited', u'vmtotal': 8, u'id': 2, u'iptotal': 1, u'volumetotal': 14, u'snapshotlimit': u'Unlimited', u'state': u'enabled', u'accounttype': 1, u'receivedbytes': 2442081182, u'templatelimit': u'Unlimited', u'snapshottotal': 0, u'templateavailable': u'Unlimited', u'vmlimit': u'Unlimited', u'vmstopped': 0, u'volumelimit': u'Unlimited', u'templatetotal': 12, u'vmrunning': 8, u'sentbytes': 67413923, u'volumeavailable': u'Unlimited', u'name': u'admin', u'vmavailable': u'Unlimited', u'ipavailable': u'Unlimited', u'snapshotavailable': u'Unlimited', u'user': [{u'username': u'admin', u'account': u'admin', u'domainid': 1, u'firstname': u'admin', u'created': u'2012-05-29T14:05:51+0000', u'lastname': u'cloud', u'domain': u'ROOT', u'email': u'', u'state': u'enabled', u'accounttype': 1, u'id': 2}]}, {u'domain': u'ROOT', u'domainid': 1, u'iplimit': u'20', u'vmtotal': 1, u'id': 3, u'iptotal': 1, u'volumetotal': 1, u'snapshotlimit': u'20', u'state': u'enabled', u'accounttype': 2, u'receivedbytes': 199034128, u'templatelimit': u'20', u'snapshottotal': 0, u'templateavailable': u'20', u'vmlimit': u'20', u'vmstopped': 0, u'volumelimit': u'20', u'templatetotal': 0, u'vmrunning': 1, u'sentbytes': 6978122, u'volumeavailable': u'19', u'name': u'oleach', u'vmavailable': u'19', u'ipavailable': u'19', u'snapshotavailable': u'20', u'user': [{u'username': u'oleach', u'account': u'oleach', u'domainid': 1, u'firstname': u'Oliver', u'created': u'2012-06-29T14:49:52+0000', u'lastname': u'Leach', u'domain': u'ROOT', u'email': u'oliver.leach@tatacommunications.com', u'secretkey': u'PYIIw--cW5Used-yP2f4b3hQUed700hj6fJADTvXsH2QEAnATuYR2hJk6PN2mMiP2OCHA144ItsTLTdLPqoRbg', u'state': u'enabled', u'apikey': u'YzjA3gIL8rawXZhtuaVCFtAJRIExQG78aPFak7mQ3ZsiSnqNxCF3x38kqryB4GrPYZZw1WIVO9tEWfcwd6bMSQ', u'accounttype': 2, u'id': 3}]}, {u'domain': u'ROOT', u'domainid': 1, u'iplimit': u'20', u'vmtotal': 0, u'id': 4, u'iptotal': 0, u'volumetotal': 0, u'snapshotlimit': u'20', u'state': u'enabled', u'accounttype': 2, u'receivedbytes': 0, u'templatelimit': u'20', u'snapshottotal': 0, u'templateavailable': u'20', u'vmlimit': u'20', u'vmstopped': 0, u'volumelimit': u'20', u'templatetotal': 0, u'vmrunning': 0, u'sentbytes': 0, u'volumeavailable': u'20', u'name': u'vmturbo', u'vmavailable': u'20', u'ipavailable': u'20', u'snapshotavailable': u'20', u'user': [{u'username': u'vmturbo', u'account': u'vmturbo', u'domainid': 1, u'firstname': u'VMturbo', u'created': u'2012-09-11T11:01:02+0000', u'lastname': u'User', u'domain': u'ROOT', u'email': u'asdfasdf@asdfon.com', u'secretkey': u'jYex5jwJf2QtLjUEBJ_6MqL2l8bnSW-ZxjFtzlajApzBU1NmcR5S5vpSP2W8Wk-m9Zi_Gtosk_ljq0T9xS2zDg', u'state': u'enabled', u'apikey': u'167yhH1wCwu_2ege755gbP6HIcmBeqnI-e0m0SzyDdgjpxyjp15-6fZTHI3aoG7CQpG0Bd6j8lYYG71snlBsfA', u'accounttype': 2, u'id': 4}]}]}}
+jobresutls  None
+listaccounts
+domain ROOT
+domainid 1
+iplimit Unlimited
+vmtotal 8
+id 2
+iptotal 1
+volumetotal 14
+snapshotlimit Unlimited
+state enabled
+accounttype 1
+receivedbytes 2442081182
+templatelimit Unlimited
+snapshottotal 0
+templateavailable Unlimited
+vmlimit Unlimited
+vmstopped 0
+volumelimit Unlimited
+templatetotal 12
+vmrunning 8
+sentbytes 67413923
+volumeavailable Unlimited
+name admin
+vmavailable Unlimited
+ipavailable Unlimited
+snapshotavailable Unlimited
+user [{u'username': u'admin', u'account': u'admin', u'domainid': 1, u'firstname': u'admin', u'created': u'2012-05-29T14:05:51+0000', u'lastname': u'cloud', u'domain': u'ROOT', u'email': u'', u'state': u'enabled', u'accounttype': 1, u'id': 2}]
+None  here it is 

@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block mainbody %}
+<div class="mb">
+
+<p>
+<p>
+<p>
+
+
+
+<p> <font size="3" color=#800000>This site provides automated cloudstack testing and uses the cloudstack 2.2.14 user API. Click on the test platform link to initiate a test.</font> </p>
+
+<h2>The way the test works <p>
+-----------------------------------------------------
+</h2>
+
+<p>You can select various test criteria by clicking checkboxes and where necessary selecting values from dropdrop boxes or input the data into text fields required to complete the test.
+
+<p>For example, if you check the enable static NAT checkbox, you will be required to enter a FW port from, FW port to and the protocol to use for the static NAT.
+
+<p>Once you have enetered your required test parameters correctly and have clicked on the submit button, you will be able to view the status of your test. 
+
+<p>The test process is synchronous and your test results page will be updated as and when the test you have requested is completed.
+
+<p>The test resources that have been created during the test will be deleted immediately after the test has completed, unless you have checked the checkbox to keep all resources created during the test. If you 
+
+wish to keep your test resources, they will not get deleted and you will have to manually remove these resources by going in to the cloudstack UI, finding your 
+
+resources created during the test and remove them
+<p></p>
+<p></p>
+<p></p>
+
+<h2> Current interface issues <p>
+-----------------------------------------------------
+</h2>
+<p>
+<ul>
+<li>If you have not filled in the form correctly and you receive a validation error, some initally seleted checkboxes will be hidden by jquery. 
+We need to unhide these checkboxes or reset the form to its default. Current work around is to uncheck and recheck the box to see test parameters again. Otherwise test parameters are actually 
+still set as per the users initial selections.
+<p>
+<li>validation issue when select upload ISO. May need to reset page or unclick on uplaod ISO checkbox and recheck.
+<p>
+<li>Currently the choice of XenServer versions to test does not work. This piece of work has been designed but not implemented. Roughly 2-3 days of work.
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<h2> Features and enhancments. <p>
+-----------------------------------------------------
+</h2>
+<p>
+<ul>
+<li>smarten up layout of testplatform form and the general look and feel of the website. This is mostly CSS based enhancements. (LOW)
+<p>
+<li>validate API and Secret key when specifying a secret and api key for a specific user. (MEDIUM)
+<p>
+<li>give the user an option to delete the reources created in the test after a specific number of days - useful for usage metering. (MEDIUM)
+<p>
+<li>better search functionality for historical tests. (HIGH)
+<p>
+<li>auto completion for test names. (LOW)
+<p>
+<li>use ajax rather than refresh page for test results. (LOW)
+<p>
+<li>link from test summary to detailed summary for each test in test results page. (MEDIUM)
+<p>
+<li>export test results page to excel spreadsheet. (LOW)
+<p>
+<li>email test summary when test is complete. (LOW)
+<p>
+<li>bulk testing. (HIGH)
+<p>
+<li>bulk testing results page. (HIGH)
+<p>
+<li>Create API versions to test against cloudstack installations. This is a whole heap of work, but never the less, could be extremely useful to test backward compatabilty. (VERY LOW)
+<p>
+<li>modify home page via admin site rather than html (MEDIUM)
+<p>
+<li>enhance logic for test dependancies when the parent dependancy fails its test. Set parameters that indicate failure of parent test (HIGH)
+<p>
+<li>fix upload ISO CS api (HIGH)
+<p>
+<li>implement XenServer version (HIGH)
+</p>
+</div>
+{% endblock %}

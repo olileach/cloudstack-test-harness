@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block mainhead %}
+
+    <link rel="stylesheet" type="text/css" href="/static/css/testresults.css" />
+    <script src="/static/js/submitform.js" type="text/javascript"></script>
+
+{% endblock %}
+
+{% block mainbody %}
+<form class = "mf" action="/testplatform/" method="post">{% csrf_token %}
+{{ form.errors }}
+{{ form.non_field_errors }}
+{{ form.as_p  }} 
+
+
+
+{{ form.label_tag }}
+
+
+<input type="submit" value="Submit" />
+</form>
+{% endblock %}

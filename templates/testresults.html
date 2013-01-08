@@ -1,0 +1,200 @@
+
+{% extends "base.html" %}
+
+
+{% block mainhead %}
+
+    <link rel="stylesheet" type="text/css" href="/static/css/testresults.css" />
+    <script src="/static/js/testresults.js" type="text/javascript"></script>
+
+{% endblock %}
+
+
+
+{% block mainbody %}
+
+{% for col in results %}
+
+<table width=50% id="results-header" summary="Test results">
+    <colgroup>
+        <col class="col-results-detail" />
+    </colgroup>
+    <tbody>
+        <tr>
+            <td bgcolor=#def width=20%><strong>Account name</td>
+            <td bgcolor=#def >{{ col.t_listaccount }}</td>
+        </tr>
+        <tr>
+            <td width=20%><strong>Test name</td>
+            <td>{{ col.t_testname }}</td>
+        </tr>
+        <tr>
+            <td bgcolor=#def width=20%><strong>Test ID</td>
+            <td bgcolor=#def>{{ col.test_id }}</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<table id="results-detail" summary="Test results">
+    <colgroup>
+        <col class="col-results-detail" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="col">Test criteria</th>
+            <th scope="col">Tested</th>
+            <th scope="col">Result</th>
+        </tr>
+    </thead>
+    <tbody >
+        <tr>
+            <td>Deploy VM</td>
+            <td>{{ col.t_deployvm }}</td>
+            <td>{{ col.r_deployvm }}</td>
+        </tr>
+        <tr>
+            <td>Stop and start VM</td>
+            <td>{{ col.t_stopstartvm }}</td>
+            <td>{{ col.r_stopstartvm }}</td>
+        </tr>
+        <tr>
+            <td>Reboot VM</td>
+            <td>{{ col.t_rebootvm }}</td>
+            <td>{{ col.r_rebootvm }}</td>
+        </tr>
+        <tr>
+            <td>Reset VM password</td>
+            <td>{{ col.t_resetvwpw }}</td>
+            <td>{{ col.r_resetvwpw }}</td>
+        </tr>
+        <tr>
+            <td>Change service offering for VM</td>
+            <td>{{ col.t_changesoforvm }}</td>
+            <td>{{ col.r_changesoforvm }}</td>
+        </tr>
+        <tr>
+            <td>Enable static NAT</td>
+            <td>{{ col.t_enablestaticnat }}</td>
+            <td>{{ col.r_enablestaticnat }}</td>
+        </tr>
+        <tr>
+            <td>Create IP port forward rule</td>
+            <td>{{ col.t_createipforwarder }}</td>
+            <td>{{ col.r_createipforwarder }}</td>
+        </tr>
+        <tr>
+            <td>Create load balancer</td>
+            <td>{{ col.t_createlb }}</td>
+            <td>{{ col.r_createlb }}</td>
+        </tr>
+        <tr>
+            <td>Enable VPN on source nat IP</td>
+            <td>{{ col.t_enablevpn }}</td>
+            <td>{{ col.r_enablevpn }}</td>
+        </tr>
+
+        <tr>
+            <td>Snapshot root volume</td>
+            <td>{{ col.t_snaprootvol }}</td>
+            <td>{{ col.r_snaprootvol }}</td>
+        </tr>
+        <tr>
+            <td>Create template from root volume snapshot</td>
+            <td>{{ col.t_createtempfromsnap }}</td>
+            <td>{{ col.r_createtempfromsnap }}</td>
+        </tr>
+        <tr>
+            <td>Deploy VM from root volume snapshot template</td>
+            <td>{{ col.t_deployvmfromsnap }}</td>
+            <td>{{ col.r_deployvmfromsnap }}</td>
+        </tr>
+        <tr>
+            <td>Create data volume</td>
+            <td>{{ col.t_createdatavol }}</td>
+            <td>{{ col.r_createdatavol }}</td>
+        </tr>
+        <tr>
+            <td>Attach data volume</td>
+            <td>{{ col.t_attachdatadatavol }}</td>
+            <td>{{ col.r_attachdatadatavol }}</td>
+        </tr>
+        <tr>
+            <td>Create snapshot from data volume</td>
+            <td>{{ col.t_createsnapfromdatavol }}</td>
+            <td>{{ col.r_createsnapfromdatavol }}</td>
+        </tr>
+        <tr>
+            <td>Create template from data volume snapshot</td>
+            <td>{{ col.t_createtempfromdatavolsnap }}</td>
+            <td>{{ col.r_createtempfromdatavolsnap }}</td>
+        </tr>
+        <tr>
+            <td>Create volume from data volume snapshot</td>
+            <td>{{ col.t_createvolfromsnapshot }}</td>
+            <td>{{ col.r_createvolfromsnapshot }}</td>
+        </tr>
+        <tr>
+            <td>Attach volume create from data volume snapshot</td>
+            <td>{{ col.t_attachsnapvol }}</td>
+            <td>{{ col.r_attachsnapvol }}</td>
+        </tr>
+        <tr>
+            <td>Detach the data volume</td>
+            <td>{{ col.t_detachdatavol }}</td>
+            <td>{{ col.r_detachdatavol }}</td>
+        </tr>
+        <tr>
+            <td>Extract the data volume</td>
+            <td>{{ col.t_extractdatavol }}</td>
+            <td>{{ col.r_extractdatavol }}</td>
+        </tr>
+        <tr>
+            <td>Attach an ISO</td>
+            <td>{{ col.t_attachiso }}</td>
+            <td>{{ col.r_attachiso }}</td>
+        </tr>
+        <tr>
+            <td>Reboot VM with ISO attached</td>
+            <td>{{ col.t_rebootvmwiso }}</td>
+            <td>{{ col.r_rebootvmwiso }}</td>
+        </tr>
+        <tr>
+            <td>Stop and start VM with ISO attached</td>
+            <td>{{ col.t_stopstartvmwiso }}</td>
+            <td>{{ col.r_stopstartvmwiso }}</td>
+        </tr>
+        <tr>
+            <td>Detach ISO</td>
+            <td>{{ col.t_detachiso }}</td>
+            <td>{{ col.r_detachiso }}</td>
+        </tr>
+<!--
+        <tr>
+            <td>Upload an ISO</td>
+            <td>{{ col.t_uploadiso }}</td>
+            <td>{{ col.r_uploadiso }}</td>
+        </tr>
+        <tr>
+            <td>Attach the uploaded ISO</td>
+            <td>{{ col.t_attachuploadediso }}</td>
+            <td>{{ col.r_attachuploadediso }}</td>
+        </tr>
+        <tr>
+            <td>Detach uploaded ISO</td>
+            <td>{{ col.t_detachuploadediso }}</td>
+            <td>{{ col.r_detachuploadediso }}</td>
+        </tr>
+        <tr>
+            <td>Extract uploaded ISO</td>
+            <td>{{ col.t_extractuploadediso }}</td>
+            <td>{{ col.r_extractuploadediso }}</td>
+        </tr>
+-->
+    </tbody>
+
+{% endfor %}
+</table>
+
+{% endblock %}
+

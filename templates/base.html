@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Instacompute Cloudstack test platform</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+
+{% block mainhead %}{% endblock %}
+
+</head>
+
+<html>
+<body> 
+<div id=ph> cloudstack automated test platform 
+</div>
+
+<div id="site">
+
+    <div class=hl>
+        <table>
+            <th>
+                <a id=hlleftmargin >|</a>
+                <a id=hlspace > </a>
+                <a href="/" >home</a><a id=hlspace > </a>
+                <a id=hlspace >|</a><a id=hlspace > </a>
+                <a href="/testplatform" >test platform</a><a id=hlspace > </a>
+                <a id=hlspace >|</a><a id=hlspace > </a>
+                <a href="/" >test results</a><a id=hlspace > </a>
+                <a id=hlspace >|</a>
+            </th>
+        </table>
+    </div>
+
+
+    <div id="mainbody">
+       
+        {% block mainbody %}{% endblock %}
+        
+    </div>
+
+    <div class=pagefooter>
+        <p class=hl>
+    </div>
+       
+
+ 
+    <div class=websitefooter>
+        <p style="margin-left: 20" align="center"><font face="Arial" color="#000000" size="1"> Cloudstack automated test platform version 1.0</font></p>
+        <p style="margin-left: 20" align="center"><font face="Arial" color="#000000" size="1"> released September 2012</font></p>
+    </div>
+</div>
+
+</body>
+</html>
+

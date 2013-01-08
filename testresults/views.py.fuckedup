@@ -1,0 +1,50 @@
+from django.db import connections
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+
+
+class testresults:
+
+    test_name = []
+    accounts = []
+
+    def accounts(self):
+
+        rsaccounts = []
+
+        cursor = connections['cloud_tests'].cursor()
+        cursor.execute('SELECT * FROM accounts')
+        res = cursor.fetchall()
+
+        for v in res[::]:
+            rsaccounts.append(v)
+
+        for v in rsaccounts:
+            rsaccounts = v
+
+        testresults.accounts = rsaccounts
+
+    def test_name(self):
+
+        test_name = []
+
+        cursor = connections['cloud_tests'].cursor()
+        cursor.execute('SELECT * FROM test_name')
+        res = cursor.fetchall()
+
+        for v in res[::]:
+            test_name.append(v)
+
+        testresults.test_name = test_name
+
+
+    def results(self, request):
+  
+        x = testresults() 
+        x.accounts()
+        a = testresults.accounts
+        test_name = testresults.test_name
+ 
+        return render_to_response("testresults.html",
+            {'test_name' : test_name, 'accounts' : a }, context_instance=RequestContext(request))
+

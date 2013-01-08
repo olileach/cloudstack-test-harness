@@ -1,0 +1,100 @@
+[Wed Jul 18 23:14:45 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1741): Target WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi' cannot be loaded as Python module.
+[Wed Jul 18 23:14:45 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1741): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Wed Jul 18 23:14:45 2012] [error] [client 10.33.22.74] Traceback (most recent call last):
+[Wed Jul 18 23:14:45 2012] [error] [client 10.33.22.74]   File "/srv/www/cloudstacktesting/apache/django.wsgi", line 10, in <module>
+[Wed Jul 18 23:14:45 2012] [error] [client 10.33.22.74]     import django.core.handlers.wsgi
+[Wed Jul 18 23:14:45 2012] [error] [client 10.33.22.74] ImportError: No module named django.core.handlers.wsgi
+[Wed Jul 18 23:18:44 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1928): Target WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi' cannot be loaded as Python module.
+[Wed Jul 18 23:18:44 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1928): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Wed Jul 18 23:18:44 2012] [error] [client 10.33.22.74] Traceback (most recent call last):
+[Wed Jul 18 23:18:44 2012] [error] [client 10.33.22.74]   File "/srv/www/cloudstacktesting/apache/django.wsgi", line 10, in <module>
+[Wed Jul 18 23:18:44 2012] [error] [client 10.33.22.74]     import django.core.handlers.wsgi
+[Wed Jul 18 23:18:44 2012] [error] [client 10.33.22.74] ImportError: No module named django.core.handlers.wsgi
+[Wed Jul 18 23:21:37 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1970): Target WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi' cannot be loaded as Python module.
+[Wed Jul 18 23:21:37 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1970): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Wed Jul 18 23:21:37 2012] [error] [client 10.33.22.74] Traceback (most recent call last):
+[Wed Jul 18 23:21:37 2012] [error] [client 10.33.22.74]   File "/srv/www/cloudstacktesting/apache/django.wsgi", line 9, in <module>
+[Wed Jul 18 23:21:37 2012] [error] [client 10.33.22.74]     import django.core.handlers.wsgi
+[Wed Jul 18 23:21:37 2012] [error] [client 10.33.22.74] ImportError: No module named django.core.handlers.wsgi
+[Wed Jul 18 23:21:45 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1971): Target WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi' cannot be loaded as Python module.
+[Wed Jul 18 23:21:45 2012] [error] [client 10.33.22.74] mod_wsgi (pid=1971): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Wed Jul 18 23:21:45 2012] [error] [client 10.33.22.74] Traceback (most recent call last):
+[Wed Jul 18 23:21:45 2012] [error] [client 10.33.22.74]   File "/srv/www/cloudstacktesting/apache/django.wsgi", line 9, in <module>
+[Wed Jul 18 23:21:45 2012] [error] [client 10.33.22.74]     import django.core.handlers.wsgi
+[Wed Jul 18 23:21:45 2012] [error] [client 10.33.22.74] ImportError: No module named django.core.handlers.wsgi
+[Wed Jul 18 23:57:33 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Wed Jul 18 23:57:33 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Wed Jul 18 23:57:55 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Wed Jul 18 22:57:55 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Wed Jul 18 23:09:51 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Thu Jul 19 00:09:51 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Thu Jul 19 00:10:27 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Thu Jul 19 00:10:27 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Thu Jul 19 00:10:31 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Thu Jul 19 00:10:31 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/admin, referer: http://10.33.22.97/admin/
+[Thu Jul 19 17:58:21 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/css/main.css, referer: http://10.33.22.97/
+[Thu Jul 19 17:58:24 2012] [error] [client 10.33.22.74] File does not exist: /srv/www/cloudstacktesting/public/static/css/main.css, referer: http://10.33.22.97/
+[Thu Aug 05 20:47:45 2010] [error] [client 10.0.2.51] Directory index forbidden by Options directive: /srv/www/cloudstacktesting/public/static/images/, referer: http://10.33.22.97/
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54] mod_wsgi (pid=20687): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54] Traceback (most recent call last):
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     response = self.get_response(request)
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     return debug.technical_500_response(request, *exc_info)
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     html = reporter.get_traceback_html()
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 275, in get_traceback_html
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     c = Context(self.get_traceback_data())
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 233, in get_traceback_data
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     frames = self.get_traceback_frames()
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 379, in get_traceback_frames
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     pre_context_lineno, pre_context, context_line, post_context = self._get_lines_from_file(filename, lineno, 7, loader, module_name)
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 360, in _get_lines_from_file
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54]     context_line = source[lineno].strip('\\n')
+[Tue Aug 10 13:27:08 2010] [error] [client 10.0.2.54] IndexError: list index out of range
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54] mod_wsgi (pid=21472): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54] Traceback (most recent call last):
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     response = self.get_response(request)
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     return debug.technical_500_response(request, *exc_info)
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     html = reporter.get_traceback_html()
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 275, in get_traceback_html
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     c = Context(self.get_traceback_data())
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 233, in get_traceback_data
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     frames = self.get_traceback_frames()
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 379, in get_traceback_frames
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     pre_context_lineno, pre_context, context_line, post_context = self._get_lines_from_file(filename, lineno, 7, loader, module_name)
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 360, in _get_lines_from_file
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54]     context_line = source[lineno].strip('\\n')
+[Wed Aug 11 08:14:16 2010] [error] [client 10.0.2.54] IndexError: list index out of range
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54] mod_wsgi (pid=21471): Exception occurred processing WSGI script '/srv/www/cloudstacktesting/apache/django.wsgi'.
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54] Traceback (most recent call last):
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     response = self.get_response(request)
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 179, in get_response
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     return debug.technical_500_response(request, *exc_info)
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     html = reporter.get_traceback_html()
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 275, in get_traceback_html
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     c = Context(self.get_traceback_data())
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 233, in get_traceback_data
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     frames = self.get_traceback_frames()
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 379, in get_traceback_frames
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     pre_context_lineno, pre_context, context_line, post_context = self._get_lines_from_file(filename, lineno, 7, loader, module_name)
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]   File "/opt/python2.7/lib/python2.7/site-packages/django/views/debug.py", line 360, in _get_lines_from_file
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54]     context_line = source[lineno].strip('\\n')
+[Wed Aug 11 08:14:18 2010] [error] [client 10.0.2.54] IndexError: list index out of range
+[Sat Sep 15 10:08:04 2012] [error] [client 10.0.2.56] File does not exist: /srv/www/cloudstacktesting/public/static/js/testreults.js, referer: http://10.33.22.97/testresults/69/
+[Sat Sep 15 10:08:13 2012] [error] [client 10.0.2.56] File does not exist: /srv/www/cloudstacktesting/public/static/js/testreults.js, referer: http://10.33.22.97/testresults/69/
+[Mon Oct 08 11:46:24 2012] [error] [client 10.33.22.74] (13)Permission denied: access to / denied
+[Mon Oct 08 11:46:24 2012] [error] [client 10.33.22.74] (13)Permission denied: access to /favicon.ico denied
+[Mon Oct 08 11:46:30 2012] [error] [client 10.33.22.74] (13)Permission denied: access to /cloudstack denied
+[Mon Oct 08 11:46:36 2012] [error] [client 10.33.22.74] (13)Permission denied: access to /testplatform/ denied

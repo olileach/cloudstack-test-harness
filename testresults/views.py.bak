@@ -1,0 +1,22 @@
+from django.db import connections
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+from testresults.sqlrow import SQLRow
+
+
+
+def results(request):
+
+    cursor = connections['cloud_tests'].cursor()
+
+    sql = ("""select * \
+    from test_name tn \
+    left join deployvm dvm on dvm.test_name_id = tn.id \
+    left join accounts accs on accs.id = dvm.accounts_id
+    where tn.id = 19""")
+    
+    cursor.execute(sql)
+    results= [SQLRow(cursor, r) for r in cursor.fetchall()]
+
+    return render_to_response("testresults.html", {'results' : results }, context_instance=RequestContext(request))
+
